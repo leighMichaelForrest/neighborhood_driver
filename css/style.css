@@ -1,0 +1,224 @@
+body {
+  font-family: 'Maven Pro', sans-serif;
+  color: #26150A;
+  background-color: #FCE6B4;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #D9C5A9;
+}
+
+.social-media {
+  display: inline;
+}
+
+.social-media > a {
+  font-size: 2rem;
+  color: #26150A;
+}
+
+.nav-link.ride {
+  background-color: #99936D;
+}
+
+/* CONTENT */
+.content {
+  min-height: 500px;
+}
+
+/* referrals and ads */
+.referrals {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.refer, .ad {
+  min-height: 200px;
+  text-align: center;
+  border: 1px solid #26150A;
+  border-radius: 15px;
+}
+
+.ride-line {
+  font-size: 2rem;
+}
+
+/*.ride > a:link,
+.ride > a:visited,
+.ride > a:hover,
+.ride > a:active,
+.drive > a:link,
+.drive > a:visited,
+.drive > a:hover,
+.drive > a:active,
+.reserve > a:link,
+.reserve > a:visited,
+.reserve > a:hover,
+.reserve > a:active*/
+.referrals  a:link,
+.referrals  a:visited,
+.referrals  a:hover,
+.referrals  a:active
+{
+   text-decoration: none;
+   color: #26150A;
+}
+
+.reserve, .referrals .ride, .drive {
+  padding-top: 15px;
+}
+
+.uzurv {
+  font-size: 3rem;
+}
+
+.logo {
+  font-size: 5rem;
+  color: #4D7A87;
+}
+
+.be {
+  font-size: 1.52rem;
+}
+
+.bonus {
+  font-size: 1.75rem;
+}
+
+.ad {
+  padding-top: 60px;
+}
+
+.catbird {
+  font-size: 1.72rem;
+  font-family: 'Cutive Mono', monospace;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  background-image: url('../images/hero.jpg');
+  background-size: cover;
+  height: 65vh;
+}
+
+.jumbotron .text {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #FAE288;
+  margin-top: 200px;
+}
+
+.navbar-light {
+  background-color: #D9C5A9;
+  margin-bottom: 5px;
+}
+
+.navbar-light .navbar-brand {
+  font-size: 2.5rem;
+}
+
+.jumbotron .text .social-media > a {
+  color: #FAE288;
+}
+
+/* ABOUT PAGE */
+.card-row {
+  margin: 0 auto;
+}
+
+.card {
+  margin: 5px;
+  max-width: 95%;
+}
+
+
+.card-header {
+  background-color: #D9C5A9;
+  text-align: center;
+}
+
+.card-block {
+  text-align: center;
+  max-height: 112px;
+  overflow-y: scroll;
+}
+
+
+/* CONTACT FORM */
+.form-control {
+  background-color: #D9C5A9;
+}
+
+.message {
+  resize: none;
+}
+
+.btn-submit {
+  background-color: #4D7A87;
+}
+
+
+/* FOOTER */
+footer {
+  height: 80px;
+  margin-top: 15px;
+}
+
+footer .container {
+  /*margin: 5px 0;*/
+}
+
+
+/* RESPONSIVE STYLES */
+@media (max-width: 600px) {
+  .content {
+      min-height: 450px;
+  }
+
+  .card {
+    width: 350px;
+    margin: 5 auto;
+  }
+
+  .navbar-light .navbar-brand {
+    color: #26150A;
+    font-size: 1.25rem;
+  }
+
+  .col-md-4 {
+    margin: 5px 2px;
+  }
+
+}
+
+
+@media (min-width: 992px) {
+  .card {
+    width: 300px;
+    margin: 5 auto;
+  }
+}
+
+@media (max-width: 665px) {
+  .jumbotron .text {
+    font-size: 1.6rem;
+  }
+
+}
+
+@media (max-width: 992px) {
+    a.nav-link.ride {
+        width: 25%;
+    }
+
+    .catbird {
+      font-size: 1.25rem;
+    }
+
+    .card {
+      width: 200px;
+      margin: 5 auto;
+    }
+
+}
