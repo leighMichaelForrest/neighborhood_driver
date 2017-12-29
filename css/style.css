@@ -59,7 +59,11 @@ body {
 .referrals  a:link,
 .referrals  a:visited,
 .referrals  a:hover,
-.referrals  a:active
+.referrals  a:active,
+.ads  a:link,
+.ads  a:visited,
+.ads  a:hover,
+.ads  a:active
 {
    text-decoration: none;
    color: #26150A;
